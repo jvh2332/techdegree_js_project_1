@@ -12,7 +12,7 @@ project 1 - A Random Quote Generator
 ***/
 
 
-//test2
+//new comment
 /***
  * `getRandomQuote` function
 ***/

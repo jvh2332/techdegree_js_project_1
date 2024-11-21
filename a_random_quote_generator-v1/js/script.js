@@ -11,8 +11,32 @@ project 1 - A Random Quote Generator
  * `quotes` array 
 ***/
 
+let quotes = [
+  {quote : "Be yourself; everyone else is already taken.",
+  source : "Oscar Wilde"
+  },
+  {quote : "Whenever you feel like criticizing any one...just remember that all the people in this world haven't had the advantages that you've had.",
+  source : "F. Scott Fitzgerald",
+  citation : "The Great Gatsby",
+  year : "1925"
+  },  
+  {quote : "She burned too bright for this world.",
+  source : "Emily Bronte",
+  citation : "Wuthering Heights"
+  },
+  {quote : "For all evils there are two remedies - time and silence.",
+  source : "Alexandre Dumas",
+  citation : "The Count of Monte Cristo",
+  year : "1844"
+  },
+  {quote : "Unable are the loved to die for love is immortality.",
+  source : "Emily Dickinson"
+  },
+  {quote : "We are all broken, that's how the light gets in.",
+  source : "Ernest Hemingway"
+  }
+];
 
-//new comment
 /***
  * `getRandomQuote` function
 ***/

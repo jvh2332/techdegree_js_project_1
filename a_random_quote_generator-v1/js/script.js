@@ -41,12 +41,21 @@ let quotes = [
  * `getRandomQuote` function
 ***/
 
-
+function getRandomQuote (arr) {
+  const randomNumber = Math.floor( Math.random() * arr.length );
+  let randomQuote = arr[randomNumber]; 
+  return randomQuote;
+}
 
 /***
  * `printQuote` function
 ***/
 
+function printQuote (arr) {
+  const randomQuote = getRandomQuote(arr);
+  let html = `<p class="quote"> A random quote </p>`
+  `<p class="source">quote source </p>`
+}
 
 
 /***
@@ -54,4 +63,4 @@ let quotes = [
  * DO NOT CHANGE THE CODE BELOW!!
 ***/
 
-document.getElementById('load-quote').addEventListener("click", printQuote, false);
+//document.getElementById('load-quote').addEventListener("click", printQuote, false);

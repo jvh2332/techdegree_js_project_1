@@ -41,16 +41,16 @@ let quotes = [
 
 //A function that returns a random quote from the provided array of quote objects
 
-function getRandomQuote(arr) {
-  const randomNumber = Math.floor(Math.random() * arr.length);
-  let randomQuote = arr[randomNumber];
+function getRandomQuote() {
+  const randomNumber = Math.floor(Math.random() * quotes.length);
+  let randomQuote = quotes[randomNumber];
   return randomQuote;
 }
 
 //A function that displays the random quote from the quotes array in the html
 
 function printQuote() {
-  const randomQuote = getRandomQuote(quotes);
+  const randomQuote = getRandomQuote();
   let html = `<p class="quote"> ${randomQuote.quote}</p>
               <p class="source">${randomQuote.source}`;
 

@@ -3,11 +3,9 @@ Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
 
-// For assistance: 
-// Check the "Project Resources" section of the project instructions
-// Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
+//This code will randomly show quotes from an array everytime someone clicks the button
 
-//An array of quote objects
+//The array of quote objects
 
 let quotes = [
   {
